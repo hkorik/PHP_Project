@@ -1,0 +1,165 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.float_left{
+	float:left;
+}
+.float_right{
+	float:right;
+}
+.clear{
+	clear: both;
+}
+/*styles for login and registration page*/
+#wrapper{
+	padding: 15px;
+	width:600px;
+	margin: 10px 0px;
+}
+	/*Pop up Messages styling*/
+	.success_message{
+		color: green;
+	}
+	.error_message{
+		color: red;
+	}
+	.highlighted{
+		border:1px solid red;
+	}
+	.field_block{
+		border:1px solid red;
+		width:160px;
+		margin-bottom:5px;
+	}
+/* Registration page*/
+#register_wrapper #registration_box {
+	border:1px solid black;
+	padding: 5px;
+	margin-top: 20px;
+	margin-left: 30px;
+	width:200px;
+}
+	#register_wrapper #registration_box h2{
+		color:grey;
+	}
+	#register_wrapper #registration_box a{
+		text-decoration: none;
+	}
+	#register_wrapper #registration_box form{
+		margin-top:10px; 
+	}
+	#register_wrapper #registration_box input{
+		margin-bottom: 10px;
+	}
+/* Login page*/
+#wrapper #login_box {
+	border:1px solid black;
+	padding: 5px;
+	margin-top: 20px;
+	margin-right: 30px;
+	width:200px;
+}
+	#wrapper #login_box h2{
+		color:grey;
+	}
+	#wrapper #login_box a{
+		text-decoration: none;
+	}
+	#wrapper #login_box form{
+		margin-top:10px; 
+	}
+	#wrapper #login_box input{
+		margin-bottom: 10px;
+	}
+/*User Wall page*/
+#wall_wrapper #header{
+	border: 1px solid black;
+	height:40px;
+	width:880px;
+	margin: 0px auto;
+}
+	#wall_wrapper #header h1{
+		font-size: 20px;
+		margin:10px 0px 5px 10px;
+	}
+	#wall_wrapper #header p{
+		font-size: 16px;
+		margin:10px 5px;
+	}
+	#wall_wrapper #header a{
+		font-size: 16px;
+		margin-left:50px;
+		color:blue;
+	}
+#wall_wrapper #main_content{
+	border: 1px solid black;
+	width:800px;
+	padding: 25px 40px 35px 40px;
+	margin: 0px auto;
+}
+	#wall_wrapper #main_content form{
+	width:610px;
+	}
+	#wall_wrapper #main_content #message{
+	border: 2px solid black;
+	margin-left: 10px;
+	height:45px;
+	
+	}
+	#wall_wrapper #main_content #message_button{
+	color: white;
+	border: 2px solid black;
+	padding: 3px 5px 3px 5px;
+	background-color: blue;
+	margin:5px 0px 10px 400px;
+	}
+	#wall_wrapper #main_content h3{
+		font-size: 17px;
+		margin-top: 15px;
+		padding-bottom: 0px;
+
+	}
+	#wall_wrapper #main_content .messages{
+		font-size: 15px;
+		margin-left: 15px;
+		margin-top:5px;
+		width:600px;
+	}
+	#wall_wrapper #main_content #comment_form{
+		margin-left: 20px;
+		width:550px;
+	}
+	#wall_wrapper #main_content #comment{
+	border: 2px solid black;
+	height:45px;
+	width:550px;
+	}
+	#wall_wrapper #main_content #comment_button{
+	color: white;
+	border: 2px solid black;
+	padding: 3px 5px 3px 5px;
+	background-color: green;
+	margin:5px 0px 10px 80px;
+	}
+	#wall_wrapper #main_content #comments{
+		font-size: 15px;
+		margin-left: 30px;
+		margin-top:5px;
+		width:500px;
+	}
+	#wall_wrapper #main_content #comment_name{
+		font-size: 15px;
+		margin-left: 30px;
+		margin-top:5px;
+		width:500px;
+	}
+
+#wall_wrapper #footer{
+	border: 2px solid black;
+	background-color: grey;
+	height:20px;
+	width:880px;
+	margin: 0px auto;
+}
+
